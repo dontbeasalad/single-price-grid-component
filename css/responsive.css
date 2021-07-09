@@ -1,0 +1,46 @@
+@media (max-width: 780px) {
+  body {
+    min-height: 120vh;
+  }
+  .card p {
+    font-size: 12px;
+  }
+  .card {
+    width: 300px;
+  }
+  .card .card-bottom {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card .monthly {
+    width: 100%;
+  }
+
+  .card .why-us {
+    width: 100%;
+  }
+
+  .card .community {
+    padding: 2.5rem 2rem 2.5rem 2rem;
+  }
+  .card .community h1 {
+    font-size: 16px;
+  }
+
+  .card h3 {
+    font-size: 13px;
+  }
+  .card .monthly {
+    padding: 2.5rem 2rem 2.5rem 2rem;
+    border-bottom-left-radius: 0.001px;
+  }
+  .card .why-us {
+    padding: 2.5rem 2rem 1rem 2rem;
+    border-bottom-left-radius: 7px;
+  }
+  footer {
+    position: absolute;
+    margin-top: 850px;
+  }
+}
